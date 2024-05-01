@@ -1,13 +1,13 @@
 #Parameter Efficient Finetuning
 R = 16
 TARGET_MODULES = ["q_proj", "k_proj", "v_proj", "o_proj", 
-                  "gate_proj", "up_proj", "down_proj",]
-LORA_ALPHA = 16,
-LORA_DROPOUT = 0,
-BIAS = "none",
-USE_GRADIENT_CHECKPOINTING = "unsloth",
-RANDOM_STATE = 3407,
-USE_RSLORA = False,
+                  "gate_proj", "up_proj", "down_proj"]
+LORA_ALPHA = 16
+LORA_DROPOUT = 0
+BIAS = "none"
+USE_GRADIENT_CHECKPOINTING = "unsloth"
+RANDOM_STATE = 3407
+USE_RSLORA = False
 LOFTQ_CONFIG = None
 
 #Alpaca Dataset
@@ -29,7 +29,7 @@ WARM_STEPS = 5
 MAX_STEPS = None
 NUM_TRAINING_EPOCHS=4
 LEARNING_RATE = 2e-4
-LOGGING_STEPS = 1,
+LOGGING_STEPS = 1
 OPTIM = "adamw_8bit"
 WEIGHT_DECAY = 0.01
 LR_SCEHDULER_TYPE = "linear"
