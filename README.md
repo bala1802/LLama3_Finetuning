@@ -4,7 +4,19 @@ The purpose of this repository is to understand the finetuning process of Llama-
 
 ## How to read this repository?
 
-TODO
+```
+.
+├── LICENSE
+├── README.md
+├── config.py
+├── dataset.py
+├── inference.py
+├── llama_model.py
+├── peft_model.py
+├── prompts.py
+├── requirements.txt
+├── train.py
+```
 
 ## Install PyPi Libraries
 
@@ -17,10 +29,10 @@ TODO
 - [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 ### Download Dataset
-
-`from datasets import load_dataset`
-
-`dataset = load_dataset("yahma/alpaca-cleaned")`
+```
+from datasets import load_dataset
+dataset = load_dataset("yahma/alpaca-cleaned")
+```
 
 Refer `dataset.py` for converting the training dataset into the Alpaca format for fine-tuning.
 
