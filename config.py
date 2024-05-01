@@ -14,6 +14,7 @@ LOFTQ_CONFIG = None
 DATASET = "yahma/alpaca-cleaned"
 
 #Model
+LLAMA_3_8B = "unsloth/llama-3-8b-bnb-4bit"
 MAX_SEQ_LENGTH = 2048 # Choose any! Llama 3 is up to 8k
 d_TYPE = None
 LOAD_IN_4BIT = True # Use 4bit quantization to reduce memory usage. Can be False.
