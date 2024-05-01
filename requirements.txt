@@ -1,1 +1,10 @@
 unsloth
+packaging 
+ninja 
+einops 
+flash-attn 
+xformers 
+trl 
+peft 
+accelerate 
+bitsandbytes
