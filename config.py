@@ -13,6 +13,11 @@ LOFTQ_CONFIG = None
 #Alpaca Dataset
 DATASET = "yahma/alpaca-cleaned"
 
+#Model
+MAX_SEQ_LENGTH = 2048 # Choose any! Llama 3 is up to 8k
+d_TYPE = None
+LOAD_IN_4BIT = True # Use 4bit quantization to reduce memory usage. Can be False.
+
 #Model Training
 DATASET_TEXT_FIELD = "text"
 DATASET_NUM_PROC = 2
