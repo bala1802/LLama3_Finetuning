@@ -8,3 +8,6 @@ def initialize_model_tokenizer():
                                     dtype = config.d_TYPE,
                                     load_in_4bit = config.LOAD_IN_4BIT)
     return model, tokenizer
+
+if __name__ == "__main__":
+    print("Hello from model")

@@ -43,3 +43,6 @@ MODEL_SAVE_METHOD = "merged_16bit"
 #Quantization
 F16_QUANTIZATION = "f16"
 Q4_K_M = "q4_k_m"
+
+if __name__ == "__main__":
+    print("Hello from config")

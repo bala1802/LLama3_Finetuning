@@ -12,3 +12,6 @@ ALPACA_PROMPT = """Below is an instruction that describes a task, paired with an
 
 ### Response:
 {}"""
+
+if __name__ == "__main__":
+    print("Hello from prompts")

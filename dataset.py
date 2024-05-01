@@ -17,3 +17,6 @@ def extract_dataset():
     dataset = load_dataset(config.DATASET, split = "train")
     dataset = dataset.map(format_prompt, batched = True,)
     return dataset
+
+if __name__ == "__main__":
+    print("Hello from dataset")
