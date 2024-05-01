@@ -6,11 +6,15 @@ The purpose of this repository is to understand the finetuning process of Llama-
 
 TODO
 
+## Install PyPi Libraries
+
+`pip install -r requirements.txt`
+
 ## Dataset
 
 ### About Dataset
 
-[Stanford Alpaca]([url](https://github.com/tatsu-lab/stanford_alpaca))
+- [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 ### Download Dataset
 
@@ -18,9 +22,21 @@ TODO
 
 `dataset = load_dataset("yahma/alpaca-cleaned")`
 
-## Install PyPi Libraries
+Refer `dataset.py` for converting the training dataset into the Alpaca format for fine-tuning.
 
-`pip install -r requirements.txt`
+### Example
+
+```
+"instruction": "Calculate the area of the following shape in square centimeters.",
+"input": "rectangle of size 4 cm x 5 cm",
+"output": ""
+```
+
+```
+"instruction": "Create a graphic or logo that visually represents the word \"courage\".",
+"input": "",
+"output": "<No Output>"
+```
 
 ## Architecture
 
